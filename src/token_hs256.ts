@@ -1,5 +1,3 @@
-require("dotenv").config();
-
 import jwt, { SignOptions } from "jsonwebtoken";
 import { getEnvVariable } from "./helpers";
 

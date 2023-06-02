@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 export function getEnvVariable(key: string): string {
   const value = process.env[key];
 
